@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shreya S Rao — AI Engineer</title>
+<link rel="canonical" href="https://raoshreya31.github.io/">
+<meta name="description" content="Shreya S Rao — AI Engineer building production LLM and RAG systems. Bengaluru, India.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#fafaf9;--surface:#ffffff;--text:#1c1917;--muted:#57534e;--line:#e7e5e4;
+  --accent:#4f46e5;--accent-soft:#eef2ff;--chip:#f5f5f4;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0c0a09;--surface:#1c1917;--text:#f5f5f4;--muted:#a8a29e;--line:#292524;
+  --accent:#818cf8;--accent-soft:#1e1b4b;--chip:#292524;
+}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:16px}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
+nav .logo{font-weight:700;color:var(--text)}
+nav ul{display:flex;gap:20px;list-style:none;font-size:14px}
+nav ul a{color:var(--muted)}
+@media(max-width:600px){nav ul{gap:12px;font-size:13px}nav ul li.hide-sm{display:none}}
+header{padding:80px 0 56px}
+.eyebrow{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--accent);margin-bottom:12px}
+h1{font-size:clamp(36px,6vw,52px);line-height:1.1;letter-spacing:-.02em;margin-bottom:16px}
+.lede{font-size:clamp(17px,2.4vw,20px);color:var(--muted);max-width:640px;margin-bottom:28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:10px 18px;border-radius:8px;font-weight:600;font-size:15px;border:1px solid var(--line);color:var(--text);background:var(--surface)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:hover{text-decoration:none;opacity:.9}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:48px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px}
+.stat b{display:block;font-size:28px;letter-spacing:-.02em}
+.stat span{font-size:14px;color:var(--muted)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:26px;letter-spacing:-.01em;margin-bottom:24px}
+h3{font-size:18px;margin-bottom:4px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px;margin-bottom:16px}
+.meta{font-size:14px;color:var(--muted);margin-bottom:12px}
+.card ul{padding-left:20px}
+.card li{margin-bottom:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{font-family:'JetBrains Mono',monospace;font-size:12px;background:var(--chip);border-radius:6px;padding:4px 8px;color:var(--muted)}
+.pipeline{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:18px 0 6px;font-size:13px}
+.step{background:var(--accent-soft);color:var(--text);border-radius:8px;padding:8px 12px;font-weight:500}
+.arrow{color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.grid .card{margin:0}
+.skills{display:grid;gap:14px}
+.skills div{display:grid;grid-template-columns:140px 1fr;gap:12px}
+.skills dt{font-weight:600}
+.skills dd{color:var(--muted)}
+@media(max-width:600px){.skills div{grid-template-columns:1fr;gap:2px}}
+footer{padding:40px 0 60px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<nav><div class="wrap">
+  <a class="logo" href="#">Shreya S Rao</a>
+  <ul>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li class="hide-sm"><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</div></nav>
+
+<header><div class="wrap">
+  <p class="eyebrow">AI Engineer · Bengaluru, India</p>
+  <h1>I build LLM and RAG systems that hold up in production.</h1>
+  <p class="lede">AI Engineer at Zapcom, building conversational AI for the hospitality industry. My focus is retrieval quality, grounded answers and the Python backends that serve them.</p>
+  <div class="btns">
+    <a class="btn primary" href="resume.pdf" target="_blank" rel="noopener">Download resume</a>
+    <a class="btn" href="https://linkedin.com/in/shreyasrao" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="mailto:shreyasampathrao@gmail.com">Email me</a>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>20,000+</b><span>guest conversations / month</span></div>
+    <div class="stat"><b>75% → 95%</b><span>answer accuracy after RAG re-architecture</span></div>
+    <div class="stat"><b>−40%</b><span>response latency</span></div>
+    <div class="stat"><b>~30%</b><span>fewer manual support tickets</span></div>
+  </div>
+</div></header>
+
+<section id="work"><div class="wrap">
+  <h2>Work</h2>
+
+  <div class="card">
+    <h3>AI chat assistant for hotel websites</h3>
+    <p class="meta">AI Engineer I, Zapcom · Jul 2025 – present</p>
+    <p>An LLM-powered chat widget on a hospitality SaaS platform. It answers guest questions for single hotels and multi-property chains, including 18+ properties for one hotel group.</p>
+    <div class="pipeline" aria-label="Retrieval pipeline">
+      <span class="step">Query expansion</span><span class="arrow">→</span>
+      <span class="step">Vector + BM25</span><span class="arrow">→</span>
+      <span class="step">RRF fusion</span><span class="arrow">→</span>
+      <span class="step">Cross-encoder rerank</span><span class="arrow">→</span>
+      <span class="step">Grounded answer</span>
+    </div>
+    <ul>
+      <li>Re-architected the RAG layer from FAISS + OpenAI embeddings to hybrid retrieval on ChromaDB with a semantic cache. Answer accuracy went from 75% to 95% and latency dropped 40%.</li>
+      <li>Built incremental ingestion with domain-aware semantic chunking, a custom chunker for section-formatted knowledge bases, and SHA-256 manifest diffing so only changed content is re-embedded.</li>
+      <li>Developing multi-agent orchestration with strict knowledge-base grounding, a hospitality-domain fallback, and hotel comparison, upsell and cross-sell flows.</li>
+      <li>Owned the Django/DRF/PostgreSQL services and the AWS EC2 + Docker deployment, including monitoring, logging and incident handling.</li>
+    </ul>
+    <div class="chips"><span class="chip">OpenAI GPT-4</span><span class="chip">ChromaDB</span><span class="chip">FAISS</span><span class="chip">BM25</span><span class="chip">BGE embeddings</span><span class="chip">Cross-encoder</span><span class="chip">Django</span><span class="chip">PostgreSQL</span><span class="chip">AWS</span><span class="chip">Docker</span></div>
+  </div>
+
+  <div class="card">
+    <h3>Associate Software Engineer — Zapcom</h3>
+    <p class="meta">Jan 2025 – Jul 2025</p>
+    <p>Built and extended REST APIs for internal and client-facing apps with Python, Django, Flask and PostgreSQL, and supported data ingestion and processing workflows.</p>
+  </div>
+
+  <div class="card">
+    <h3>Python Developer Intern — NIRAMAYA, IIT Bhilai</h3>
+    <p class="meta">Sep 2023 – Mar 2024</p>
+    <p>Built an AI-driven system to help underprivileged patients access medical emergency loans. It used ML-based risk scoring on health and financial indicators to recommend loan amounts. The results were presented at IIT Bhilai.</p>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Real-Time Fire Detection</h3>
+      <p class="meta">Hackathon</p>
+      <p>YOLO-based CNN running frame-wise inference on live camera streams, with event-driven email alerts sent when fire is detected.</p>
+      <div class="chips"><span class="chip">YOLO</span><span class="chip">OpenCV</span><span class="chip">Python</span></div>
+    </div>
+    <div class="card">
+      <h3>Scrum Master Automation</h3>
+      <p class="meta">Hackathon</p>
+      <p>Generates Jira user stories from CSV, splits them into tasks, assigns sprints and moves statuses automatically.</p>
+      <div class="chips"><span class="chip">Python</span><span class="chip">Jira REST API</span></div>
+    </div>
+    <div class="card">
+      <h3>Mirror Mate</h3>
+      <p class="meta">Personal project</p>
+      <p>Raspberry Pi smart mirror that shows weather, news and calendar, and uses OpenCV emotion detection to recommend music.</p>
+      <div class="chips"><span class="chip">Raspberry Pi</span><span class="chip">OpenCV</span><span class="chip">Linux</span></div>
+    </div>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2>Skills</h2>
+  <dl class="skills">
+    <div><dt>GenAI</dt><dd>OpenAI GPT-4, RAG, hybrid search (vector + BM25, RRF), cross-encoder reranking, embeddings (OpenAI, BGE), semantic chunking, semantic caching, multi-agent orchestration, prompt engineering</dd></div>
+    <div><dt>ML &amp; vector DBs</dt><dd>ChromaDB, FAISS, PyTorch, TensorFlow, Keras, scikit-learn, OpenCV</dd></div>
+    <div><dt>Backend</dt><dd>Python, SQL, Django, Django REST Framework, Flask, REST APIs, microservices, Celery, Redis</dd></div>
+    <div><dt>Cloud &amp; data</dt><dd>AWS (EC2), Docker, PostgreSQL, MySQL, MongoDB, data pipelines</dd></div>
+    <div><dt>Education</dt><dd>B.E. Computer Science, Dayananda Sagar College of Engineering, 2021–2025 · GPA 9.2/10</dd></div>
+  </dl>
+</div></section>
+
+<section id="contact"><div class="wrap">
+  <h2>Contact</h2>
+  <p style="color:var(--muted);margin-bottom:18px">I'm open to AI / GenAI engineering roles in Bengaluru or remote. The fastest way to reach me is email.</p>
+  <div class="btns">
+    <a class="btn primary" href="mailto:shreyasampathrao@gmail.com">shreyasampathrao@gmail.com</a>
+    <a class="btn" href="https://linkedin.com/in/shreyasrao" target="_blank" rel="noopener">linkedin.com/in/shreyasrao</a>
+  </div>
+</div></section>
+
+<footer><div class="wrap">© 2026 Shreya S Rao</div></footer>
+</body>
+</html>
